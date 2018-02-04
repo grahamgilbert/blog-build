@@ -3,7 +3,7 @@ WORKDIR /tmp/blog
 USER root
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
-ENV TZ=America/Los Angeles
+ENV TZ=America/Los_Angeles
 ENV LC_ALL=en_US.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US
