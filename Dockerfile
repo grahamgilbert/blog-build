@@ -1,5 +1,4 @@
 FROM circleci/ruby:2.3
-COPY Gemfile* /tmp/
 WORKDIR /tmp/blog
 RUN git clone https://github.com/grahamgilbert/blog.git /tmp/blog \
     && sudo apt-get -qq update \
